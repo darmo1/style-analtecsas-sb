@@ -48,7 +48,7 @@ const GridSystem: ForwardRefExoticComponent<GridSystemProps> = forwardRef<
 
     const renderRow = (itemsToRender: Array<unknown>, rowIndex = 0) => (
       <div>
-        {itemsToRender.map((item, colIndex) => {
+        {itemsToRender.map((item:any, colIndex) => {
           const index = rowIndex * (cols ?? 0) + colIndex;
           const ctxValue = { index, rowIndex, colIndex };
           return (
