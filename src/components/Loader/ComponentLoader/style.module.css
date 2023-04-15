@@ -1,0 +1,18 @@
+.preloader {
+  animation-name: preload;
+  animation-duration: 0.5s;
+}
+
+@keyframes preload {
+  0% {
+    opacity: 0%;
+  }
+
+  99% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
