@@ -15,7 +15,7 @@ const Card: FC<CardType> = ({
       className={`m-h-[350px] w-60 border rounded p-3 mx-2  ${classNameContainer}`}
       {...props}
     >
-      <img src={imgSrc} alt={title} className={`object-cover ${styles["blog-cart__image"]}`} />
+      <img src={imgSrc} alt={title} className={`object-cover border ${styles["blog-cart__image"]}`} />
       <div>
         <h5 className="text-lg font-semibold">{title}</h5>
         <p className="my-6">{caption && caption.slice(0,150)}</p>
