@@ -9,6 +9,9 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+    
+permissions:
+  contents: write
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -37,3 +40,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ANALTECSAS_GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
+
+  
