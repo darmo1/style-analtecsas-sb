@@ -1,5 +1,8 @@
 {
   "name": "style-analtecsas-sb",
+  "author": {
+    "name": "Danilo Morales"
+  },
   "private": false,
   "version": "0.1.0",
   "type": "module",
