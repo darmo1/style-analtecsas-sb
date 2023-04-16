@@ -14,7 +14,8 @@ export type Props = {
   disabled?: boolean;
   typeButton ?: TypeButton
 };
-const Btn: FC<Props> = ({
+
+export const Btn: FC<Props> = ({
   className,
   children,
   onClick,
