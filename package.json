@@ -68,5 +68,9 @@
     "@semantic-release/github",
     "@semantic-release/npm",
     "@semantic-release/git"
-  ]
+  ],
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"]
 }
