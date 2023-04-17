@@ -45,7 +45,7 @@ export const Btn: FC<Props> = ({
   const getType = (type: string): string  => {
     switch(type){
       case 'primary':{
-        return 'bg-[--black] text-white hover:bg-[--bg-white-100] hover:text-black'
+        return 'bg-black bg-[--black] text-white hover:bg-[--bg-white-100] hover:text-black'
       }
 
       case 'secondary': {
