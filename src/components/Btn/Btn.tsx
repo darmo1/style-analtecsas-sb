@@ -1,8 +1,7 @@
-import React, { FC, ReactNode } from "react";
+import { FC, ReactNode } from "react";
 
-export type SizeButton = "small" | "medium" | "large";
-export type TypeButton =
-| 'primary'
+export type SizeButton = 'small' | 'medium' | 'large';
+export type TypeButton = 'primary'
 | 'secondary'
 | 'tertiary'
 
